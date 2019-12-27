@@ -8,8 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+var takenPhoto = UIImage()
 
+
+
+
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+    
+
+    @IBOutlet weak var theView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -25,9 +33,21 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             vc.allowsEditing = true
             vc.delegate = self
             present(vc, animated: true)
-            
+            print("Taking photo")
+
         }
+
     }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        takenPhoto = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
+        picker.dismiss(animated: true)
+        
+        theView.image = takenPhoto
+    }
+    
+    
+    
     
 }
 
