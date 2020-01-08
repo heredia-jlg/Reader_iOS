@@ -34,6 +34,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             vc.delegate = self
             present(vc, animated: true)
             print("Taking photo")
+            checkBitmap()
 
         }
 
