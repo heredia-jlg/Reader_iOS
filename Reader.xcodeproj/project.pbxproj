@@ -16,6 +16,7 @@
 		C8792DB823B3505100B3BF39 /* ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8792DB723B3505100B3BF39 /* ReaderTests.swift */; };
 		C8792DC323B3505100B3BF39 /* ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8792DC223B3505100B3BF39 /* ReaderUITests.swift */; };
 		C8F7497023C591D100A6685C /* bitmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7496F23C591D100A6685C /* bitmap.swift */; };
+		C8F7497223C999DC00A6685C /* imageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7497123C999DC00A6685C /* imageHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C8792DC223B3505100B3BF39 /* ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderUITests.swift; sourceTree = "<group>"; };
 		C8792DC423B3505100B3BF39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8F7496F23C591D100A6685C /* bitmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitmap.swift; sourceTree = "<group>"; };
+		C8F7497123C999DC00A6685C /* imageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				C8792DA223B3505000B3BF39 /* SceneDelegate.swift */,
 				C8792DA423B3505000B3BF39 /* ViewController.swift */,
 				C8F7496F23C591D100A6685C /* bitmap.swift */,
+				C8F7497123C999DC00A6685C /* imageHandler.swift */,
 				C8792DA623B3505000B3BF39 /* Main.storyboard */,
 				C8792DA923B3505100B3BF39 /* Assets.xcassets */,
 				C8792DAB23B3505100B3BF39 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F7497223C999DC00A6685C /* imageHandler.swift in Sources */,
 				C8F7497023C591D100A6685C /* bitmap.swift in Sources */,
 				C8792DA523B3505000B3BF39 /* ViewController.swift in Sources */,
 				C8792DA123B3505000B3BF39 /* AppDelegate.swift in Sources */,
