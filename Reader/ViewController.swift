@@ -7,9 +7,9 @@
 //
 
 import UIKit
+import CoreGraphics
 
 var takenPhoto = UIImage()
-
 
 
 
@@ -34,9 +34,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             vc.delegate = self
             present(vc, animated: true)
             print("Taking photo")
-            checkBitmap()
-
+            
         }
+        
+        
+        
 
     }
     
@@ -45,6 +47,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         picker.dismiss(animated: true)
         
         theView.image = takenPhoto
+        
+        let photo = takenPhoto.cgImage
+        
+        _ = imageHandler(img: photo!)
+        //print( bitMap.color_at(x: 500, y: 500) )
     }
     
     

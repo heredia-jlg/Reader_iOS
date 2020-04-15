@@ -11,7 +11,7 @@ import Foundation
 
 func checkBitmap(){
 
-    var oneBitmap = [[0][0][0][0][0][0][0][0],
+    /*var oneBitmap = [[0][0][0][0][0][0][0][0],
                      [0][0][0][1][1][0][0][0],
                      [0][0][0][1][1][0][0][0],
                      [0][0][0][1][1][0][0][0],
@@ -30,7 +30,7 @@ func checkBitmap(){
                       [0][0][0][0][0][0][0][0]]
     
     print(oneBitmap)
-    print(zeroBitmap)
+    print(zeroBitmap)*/
     
 }
     
